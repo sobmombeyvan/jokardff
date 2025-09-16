@@ -154,3 +154,4 @@ const Sidebar = ({ activeItem, onItemClick }) => {
 };
 
 export default Sidebar;
+
