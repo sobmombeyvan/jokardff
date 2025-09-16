@@ -7,12 +7,11 @@ import { Input } from '../components/ui/Input';
 import { Label } from '../components/ui/Label';
 import { Textarea } from '../components/ui/Textarea';
 import { Select } from '../components/ui/Select';
-import { Menu, Save, User, Bell, Shield, Globe, Palette } from 'lucide-react';
+import { Menu, Save, User, Bell, Shield, Globe } from 'lucide-react';
 import Sidebar from '../components/ui/Sidebar';
 import ThemeToggle from '../components/ui/ThemeToggle';
 
 const Settings = () => {
-  const navigate = useNavigate();
   const { isDark } = useTheme();
   const [activeItem, setActiveItem] = useState('settings');
   const [sidebarOpen, setSidebarOpen] = useState(false);

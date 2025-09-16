@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 :root {
-  --jokard-background-image: url('');
   --jokard-primary-color: #042418;
   --jokard-secondary-color: #000000;
   --jokard-profile-text-primary-color: #ffffff;
